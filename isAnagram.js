@@ -47,3 +47,11 @@ function isAnagram(s, t) {
 
   return true;
 }
+
+    console.log(isAnagram("anagram", "nagaram")); // Expected output: true
+    console.log(isAnagram("rat", "car")); // Expected output: false
+    console.log(isAnagram("listen", "silent")); // Expected output: true
+    console.log(isAnagram("a", "a")); // Expected output: true
+    console.log(isAnagram("a", "b")); // Expected output: false
+    console.log(isAnagram("anagram", "nag a ram")); // Expected output: false
+    console.log(isAnagram("123", "321")); // Expected output: true

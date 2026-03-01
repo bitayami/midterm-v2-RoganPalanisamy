@@ -15,4 +15,14 @@ const calculateTotal = function (cart) {
   return total;
 };
 
+
+const cartArr = [
+  {  name : 'toys',  price: 150,  quantity: 2},
+  {  name : 'groceries',  price: 500,  quantity: 1},
+  {  name : 'toolkit',  price: 300,  quantity: 4},
+  {  name : 'medicines',  price: 1000,  quantity: 10},
+]
+
+console.log(calculateTotal(cartArr))
+
 module.exports = calculateTotal;

@@ -14,4 +14,6 @@ const getInitials = function (name) {
 
 };
 
+console.log(getInitials("rogan palani samy"))
+
 module.exports = getInitials;

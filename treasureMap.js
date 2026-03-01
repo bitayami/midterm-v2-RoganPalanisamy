@@ -9,6 +9,10 @@ It must return an object with this structure:
   coordinates: [ [x, y], [x, y] ... ]
 }
 */
+
+
+
+
 const treasureMap = function (grid) {
   let treasureCount = 0;
   let coordinates = [];
@@ -27,5 +31,17 @@ const treasureMap = function (grid) {
     coordinates
   };
 };
+
+const grid = [
+  ['.', 'X', '.', '.', '.'],
+  ['.', '.', 'X', '.', '.'],
+  ['X', '.', '.', 'X', '.'],
+  ['.', '.', '.', '.', '.'],
+  ['.', 'X', '.', '.', 'X']
+];
+
+
+console.log(treasureMap(grid))
+
 
 module.exports = treasureMap;
